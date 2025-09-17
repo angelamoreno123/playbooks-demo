@@ -24,6 +24,13 @@
         dest: /var/www/html/index.html
         content: |
           <html>
-            <head><title>Apache desde Ansible</title></head>
+            <head>
+              <title>Apache desde Ansible</title>
+            </head>
             <body>
-              <h1>Apache instalado d
+              <h1>Apache instalado desde Ansible fue exitoso 🎉</h1>
+            </body>
+          </html>
+        owner: www-data
+        group: www-data
+        mode: '0644'
